@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.milisp.mcp-linker/evolink",
+  "title": "EvoLink",
+  "description": "Image, video, music and speech generation with 150+ models",
+  "version": "1.0.0",
+  "websiteUrl": "https://evolink.ai/mcp",
+  "icons": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/milisp/mcp-linker@main/registry/icons/evolink.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.evolink.ai/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "io.github.milisp.mcp-linker": {
+        "configName": "evolink",
+        "category": "Design & Media",
+        "official": true,
+        "fullDescription": "Hosted MCP server from EvoLink for image, video, music and speech generation with 150+ models. Its tools search models and their published prices, quote an exact task, generate after the user approves it, check task status and balance, and upload reference media. Sign in with an EvoLink account in the browser (OAuth 2.1 with dynamic client registration and PKCE); there is no API key to paste. Model search, prices, quotes, task status and balance checks are free; generation is billed to the user's EvoLink balance. Docs: https://evolink.ai/mcp"
+      }
+    }
+  }
+}
